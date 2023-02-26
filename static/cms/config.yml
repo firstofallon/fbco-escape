@@ -8,7 +8,7 @@ site_url: "https://escape.firstofallon.com"
 collections:
   - name: "page"
     label: "Page"
-    folder: "src/routes/pages/{slug}"
+    folder: "src/routes/pages/{{slug}}"
     create: true
     slug: "/+page"
     fields:
