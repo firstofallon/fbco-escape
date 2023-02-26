@@ -7,7 +7,7 @@ collections:
   - name: "page"
     label: "Page"
     folder: "_pages"
-    create: "true"
+    create: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
